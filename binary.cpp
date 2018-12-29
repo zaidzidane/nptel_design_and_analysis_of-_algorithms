@@ -14,7 +14,7 @@ int binarysearch(int arr[],int a,int b, int c)
         cout<<"true"<<endl;
         cout<<mid+1;
     }
-    if(a<arr[mid])
+    else if(a<arr[mid])
     {
         return(binarysearch(arr,a,b,mid-1));
         
